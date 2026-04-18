@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gold-primary: #C9973A;
+  --color-gold-light: #D4A845;
+  --color-gold-dark: #9B6228;
+  --color-gold-pale: #FEF3E4;
+  --color-gold-info: #FDF6EB;
+  --color-gold-text: #8B6B3D;
+  --color-section-bg: #F0EDE8;
+  --color-page-bg: #F9F7F4;
+  --color-border: #E8E4E0;
+  --color-card-border: #F0EDE8;
+  --color-text-dark: #1A1A1A;
+  --color-text-muted: #888888;
+  --color-text-inactive: #999999;
+  --color-veg-bg: #E8F5E8;
+  --color-veg-text: #4A7C4A;
+  --color-spicy-bg: #FFF0E6;
+  --color-spicy-text: #C0552A;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+html, body {
+  max-width: 480px;
+  margin: 0 auto;
+  background-color: #F9F7F4;
+  font-family: -apple-system, 'Helvetica Neue', Arial, 'Noto Sans CJK TC',
+    'Noto Sans JP', 'Noto Sans KR', sans-serif;
+}
+
+#root {
+  min-height: 100dvh;
+}
