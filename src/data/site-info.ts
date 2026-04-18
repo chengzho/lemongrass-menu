@@ -40,3 +40,9 @@ export const languageLabels: Record<Language, string> = {
 };
 
 export const languages: Language[] = ['zh', 'en', 'ja', 'ko'];
+
+export const modalLabels = {
+  close:  { zh: '關閉', en: 'Close', ja: '閉じる',  ko: '닫기' },
+  desc:   { zh: '說明', en: 'Description', ja: '説明', ko: '설명' },
+  note:   { zh: '備註', en: 'Note',  ja: '備考',    ko: '비고' },
+} satisfies Record<string, I18nString>;
