@@ -62,8 +62,10 @@
 
 ## 專案畫面
 
-![Main Menu](./docs/screenshots/main-menu.jpg)
-![Item Detail Modal](./docs/screenshots/item-detail-modal.jpg)
+<p align="center">
+  <img src="./docs/screenshots/main-menu.jpg" alt="Main Menu" width="260" />
+  <img src="./docs/screenshots/item-detail-modal.jpg" alt="Item Detail Modal" width="260" />
+</p>
 
 ---
 
